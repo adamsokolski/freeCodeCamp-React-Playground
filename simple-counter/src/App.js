@@ -21,7 +21,7 @@ class App extends React.Component {
   }
   decrement() {
     this.setState((state) => ({
-      count: state.count + -1,
+      count: state.count - 1,
     }));
   }
   reset() {
@@ -29,6 +29,7 @@ class App extends React.Component {
       count: 0,
     }));
   }
+
   // Change code above this line
   render() {
     return (
